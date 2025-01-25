@@ -1,4 +1,4 @@
-import { Navigate, useNavigate, Routes, Route } from "react-router-dom"
+import { Navigate, useNavigate } from "react-router-dom"
 
 function Post() {
   const status = 200
@@ -19,10 +19,6 @@ const onClick= () =>{
         <h1>Post </h1>
         <button onClick={onClick}>Click</button>
 
-        {/* TO LINK SOMETHING IN SAME PAGE */}
-        {/* <Routes>
-          <Route path='/show' element={<h1>hello world</h1>}/>
-        </Routes> */}
     </div>
   )
 }
